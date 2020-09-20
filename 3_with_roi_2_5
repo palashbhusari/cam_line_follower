@@ -1,0 +1,8 @@
+roi = 5*5 pixels
+
+works but lags
+
+problem faced 
+
+-pixel=image[y,x]       ## y,x is passed not x,y coordinates
+-roi=img[y:y+h,x:x+w]   ## w= width , h=height
